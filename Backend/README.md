@@ -51,22 +51,6 @@ The request body should be a JSON object with the following structure:
   }
   ```
 
-### Example
-```json
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "user": {
-    "_id": "60d0fe4f5311236168a109ca",
-    "fullName": {
-      "firstName": "John",
-      "lastName": "Doe"
-    },
-    "email": "john.doe@example.com",
-    "socketId": "12345"
-  }
-}
-```
-
 ### Error
 - **Status Code:** `400 Bad Request`
 - **Body:**
